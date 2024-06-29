@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Card</title>
+    <link rel="stylesheet" href="18weatherstyle.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Enter city name">
+            <button><img src="./utilities/search.png"></button>
+        </div>
+        <div class="weather">
+            <img src="./utilities/rain.png" class="weather-icon">
+            <h1 class="temp">42°c</h1>
+            <h2 class="city">Jamshedpur</h2>
+            <p class="comment">Garmi</p>
+            <p class="t"></p>
+            <div class="details">
+                <div class="info">
+                    <img src="./utilities/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="./utilities/wind.png" alt="">
+                    <div>
+                        <p class="wind">5km/h</p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="18weather.js"></script>
+</html>
